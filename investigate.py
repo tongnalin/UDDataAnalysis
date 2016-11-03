@@ -1,4 +1,4 @@
-#!C:\Install\Miniconda3\envs\python2\python.exe
+#!/usr/bin/python3
 
 # Analyze data in pure python first
 
