@@ -7,18 +7,18 @@ This is Docstring
 from datetime import datetime as dt
 import unicodecsv
 
+
 def read_csv(filename):
     """
     read csv data from filename
     """
-    with open(filename, 'rb') as f:
-        reader = unicodecsv.DictReader(f)
+    with open(filename, 'rb') as csv_file:
+        reader = unicodecsv.DictReader(csv_file)
         return list(reader)
 
 ENROLLMENTS = read_csv('enrollments.csv')
 DAILY_ENGAGEMENT = read_csv('daily_engagement.csv')
 PROJECT_SUBMISSIONS = read_csv('project_submissions.csv')
-
 
 
 def parse_date(date):
