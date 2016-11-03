@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "python.pythonPath": "C:\\Install\\Miniconda3\\envs\\python2\\python.exe",
+    //"python.linting.flake8Path": "flake8",
+    "python.linting.pylintPath": "C:\\Install\\Miniconda3\\Lib\\site-packages\\pylint"
+}
