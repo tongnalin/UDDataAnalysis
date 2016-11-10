@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 class FibIterable(object):
-    def __init__(self, iLast = 1, iSecondLast = 0, iMax = 100):
+    def __init__(self, iLast=1, iSecondLast=0, iMax=100):
         self.iLast = iLast
         self.iSecondLast = iSecondLast
         self.iMax = iMax

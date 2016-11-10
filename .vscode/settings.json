@@ -1,13 +1,22 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    // python2 configs
     "python.pythonPath": "C:\\Install\\Miniconda3\\envs\\python2\\python.exe",
     "python.linting.flake8Path": "C:\\Install\\Miniconda3\\envs\\python2\\Scripts\\flake8.exe",
     "python.linting.pylintPath": "C:\\Install\\Miniconda3\\envs\\python2\\Scripts\\pylint.exe",
     "python.linting.pep8Path": "C:\\Install\\Miniconda3\\envs\\python2\\Scripts\\pep8.exe",
-    "python.linting.lintOnTextChange": true,
+    //"python.linting.lintOnTextChange": true,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": false,
+    /* 
+    "python.jupyter.defaultKernel": "conda env:python2",
+    "python.jupyter.startupCode": [
+        "%matplotlib inline"
+    ],
+    "python.jupyter.appendResults": true,
+    */
     
     "editor.renderWhitespace": "all"
 }

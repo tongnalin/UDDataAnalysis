@@ -1,6 +1,7 @@
 *.csv
 table_descriptions.txt
-
+*.xlsx
+*.xls
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
